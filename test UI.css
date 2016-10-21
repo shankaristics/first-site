@@ -1,0 +1,141 @@
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0;
+	background-color: #e0ddd7;
+
+}
+
+.top_bar{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 14.285%;
+	height: 7px;
+	float: left;
+	display: inline;
+}
+
+.main_container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 70px;
+	padding-right: 70px;
+	text-align: center;
+}
+
+#header_text {
+	padding-top: 4px;
+	font-family: Helvetica;
+	font-size: 50px;
+	font-weight: 100;
+	letter-spacing: 0.2em;
+}
+
+#subtitle {
+	font-family: sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.5em;
+}
+
+#images {
+	margin: auto;
+	margin-top: 5em;
+}
+
+a, a:visited {
+	color: white;
+	text-decoration: none;
+	transition: 0.1s;
+	transition-timing-function: ease-in-out;
+}
+
+a:hover {
+	color: #e74c3c;
+	text-decoration: none;
+	text-shadow: 3px 3px 20px grey;
+}			
+
+#js:hover {
+	color: #e74c3c;
+	text-decoration: none;
+	text-shadow: 3px 3px 20px grey;
+}
+
+#jss, #CSS, #jss:visited, #CSS:visited {
+	text-decoration: none;
+	color: #000000;
+	transition: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+#CSS:hover {
+	color: #2980b9;
+}
+
+#jss:hover {
+	color: #e67e22;
+}
+
+#js_logo {
+	height: 200px;
+	width: 200px;
+	display: fixed;
+	float: left;
+	margin-left: 30%;
+	transition: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+
+#css_logo {
+	height: 200px;
+	width: 200px;
+	display: fixed;
+	float: right;
+	margin-right: 30%;
+	transition: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+
+#js_logo:hover {
+	cursor: pointer;
+	transform: scale(1.01);
+	box-shadow: 3px 3px 5px grey;
+}
+
+#css_logo:hover {
+	cursor: pointer;
+	transform: scale(1.01);
+	box-shadow: 3px 3px 5px grey;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #212121;
+	height: 50px;
+	padding: 1rem;
+}
+
+#footer_left {
+	font-family: Helvetica;
+	font-weight: 100;
+	font-size: 12px;
+	float: left;
+	padding-left: 1em;
+	padding-top: 1em;
+	color: #e0e0e0;
+}
+
+#footer_right {
+	font-family: Helvetica;
+	font-weight: 100;
+	font-size: 12px;
+	float: right;
+	padding-right: 1em;
+	padding-top: 1em;
+	color: #e0e0e0;
+}
